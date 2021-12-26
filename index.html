@@ -6,37 +6,98 @@
 		<title>Steven's Introduction Website :D</title>
 				
 		<!-- Link To my CSS file -->
-		<link rel="stylesheet" type="text/css" href="/css/side.css">
+		<link rel="stylesheet" href="side.css">
 
 			<!--Search On google Google Fonts and this was copied over-->
 			<link rel="preconnect" href="https://fonts.googleapis.com"> 
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 			<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap" rel="stylesheet">
 
+			<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+			-->
 
 	</head>
 	<!-- -->
 	<body>
 		<!-- makes a class name header, which you can open in css file -->
 		<section class="header"> 
-			<nav>
-				<!-- Adding an anchor tag to be able to click on the logo-->
-				<a href="index.html"><img src="images/logo.png"></a>
-					<!-- What are ul and li?-->
-				<div class="nav-links">
-					<ul>
-						<li><a href="">HOME</a></li>
-						<li><a href="">ABOUT</a></li>
-						<li><a href="">PROJECT</a></li>
-						<li><a href="">COURSE</a></li>
-						<li><a href="">CONTACT</a></li>
-						
-					</ul>
+				<nav>
+					<!-- Adding an anchor tag to be able to click on the logo-->
+					<a href="index.html"><img src="images/logo.png"></a>
+						<!-- What are ul and li?-->
+					<div class="nav-links" id="navLinks">
+					<!--<i class="fa fa-times"> onclick="hideMenu()"</i>-->
+						<ul>
+							<li><a href="">HOME</a></li>
+							<li><a href="">ABOUT</a></li>
+							<li><a href="">PROJECT</a></li>
+							<li><a href="">COURSE</a></li>
+							<li><a href="">CONTACT</a></li>
+							
+						</ul>
+					</div>
+					<!--<i class="fa fa-bars"> onclick="showMenu()"</i>-->
+				</nav>
+				
+				<!-- Makes the title of the page to appear-->
+				<div class="text-box">
+					<h1>Giving it a Random Title :D</h1>
+					<!-- Text/words     note: <br> is used to change the line -->
+					<p>ioewnteintwientwientwoientwoie<br>ntwoeintwioentwoientwinetwoietniewngoiewntewintwotien	
+					</p>
+					<!-- Anchor Tag for a button-->
+					<!--<a href="">Button Name Here</a>-->
+					<a href=""class="our-btn">Button Name Here</a>
+
+
 				</div>
-			</nav>
+
 
 
 		</section>
+
+		<!------New Section for the first page--->
+			<!---The class name is course-->
+		<section class="course">
+			<h1>TITLE FOR THE NEW SECTION :)</h1>
+			<p>THIS IS THE TEXT....EIWNTOIWENTOIWENTOIWENTOIWNETOIWNTOWENTOWINTOWIN</p>
+
+			<div class="row">
+					<div class="course-col">
+						<h3>Inter</h3>
+						<p>eiwtnoiwentwientwoeitnweitnweoitnwotw</p>
+					</div>
+					<div class="course-col">
+						<h3>deg</h3>
+						<p>eiwtnoiwentwientwoeitnweitnweoitnwotw</p>
+					</div>
+					<div class="course-col">
+						<h3>post</h3>
+						<p>eiwtnoiwentwientwoeitnweitnweoitnwotw</p>
+					</div>
+			</div>
+
+		</section>
+
+		<!--The third section for the first page-->
+		
+
+
+
+		<!--Small Java Script to add a click event when pressing the icon-->
+		<script>
+			//create a variable 
+			var navLinks = document.getElementById("navLinks");//the id is navLinks made in 
+																//<div class="nav-links" id="navLinks">
+			function showMenu(){//changes the right value 
+				navLinks.style.right = "0";//zero
+
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";//when we have to hide it turns the value to -200px
+				
+			}
+		</script>
 
 
 
