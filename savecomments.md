@@ -24,4 +24,19 @@
 ```
 
 * Need to work on the linking of pages and fixing the mobile 
+    * Mobile, now it works... but you can still scroll over and see it all the way over to the right side of the page...
+
+* Linking of the pages might have to do with the githubw
+
+* Adding events that occur after using the form page on my website
+
+* Making usages for the bottons and links of all these anchor tags
+
+* Update: Fixed the linking between the pages...
+	* And the scrolling on the mobile devices
+
+		* Still need to work on the actions from the two forms added on the pages of the website
+
+
+
 
