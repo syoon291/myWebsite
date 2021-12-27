@@ -121,7 +121,7 @@ nav .fa {
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -524px;/*To Hide the menu*/
+        right: -100%;/*To Hide the menu*/
         text-align: left;
         z-index: 2;
         transform: 1s;
