@@ -458,6 +458,9 @@ h3{
 .comment-box h3{
     text-align: left;
 }
+.comment-form iframe{
+    width: 100%;
+}
 .comment-form input, .comment-form textarea{
     width: 100%;
     padding: 10px;
