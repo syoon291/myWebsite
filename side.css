@@ -106,7 +106,7 @@ nav .fa {
 
 /*Now this is to take care of the mobile device*/
 /*applicable to device with less than or equal to 700px*/
-@media(max-width: 700px){
+@media(max-width: 1024px){
     /*Fixing the size of the title*/
     .text-box h1{
         font-size: 20px;

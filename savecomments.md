@@ -23,3 +23,5 @@
 		</footer>
 ```
 
+* Need to work on the linking of pages and fixing the mobile 
+
