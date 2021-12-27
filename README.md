@@ -30,4 +30,9 @@
     * need to work on the some aspect of the icons
     * make some of the icons link to some websites upon clicking on them?
         * maybe adding some anchor tags and adding links to the icons?
-        
+
+* Update: 
+    * The sending an email using php doesn't seem to be working 
+    * maybe integrating a google form into the website just like google maps?
+        * look into that, just a simple google search will probably be able to find some exmaple 
+            * or some youtube video on it 
