@@ -94,73 +94,12 @@ nav img{
 }
 .our-btn:hover{
     border: 1px solid #97b4fc;
-    background: #97b4fc;
+    background: #b808ee;
     transition: 1s;
 
 }
 
-/*To hide the icons for the fulls screen*/
-nav .fa {
-    display: none;
-}
 
-/*Now this is to take care of the mobile device*/
-/*applicable to device with less than or equal to 700px*/
-@media(max-width: 1024px){
-    /*Fixing the size of the title*/
-    .text-box h1{
-        font-size: 20px;
-    }
-    /*this was the CSS created for the menu labels*/
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: fixed; /* This fixes the scrollable on the mobile devices*/
-        background: #97b4fc;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -100%;/*To Hide the menu*/
-        text-align: left;
-        z-index: 2;
-        transform: 1s;
-    }
-    /*prettying up the x button the menu*/
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    /*Space around the menu links*/
-    .nav-links ul{
-        padding: 30px;
-    }
-
-
-    /*the second section */
-    .row{
-        flex-direction: column;
-    }
-
-    /*The 5th section*/
-    .reviews-col img{
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-    /* cta section */
-    .cta h1{
-        font-size: 24px;
-    }
-
-    /*Adding the responsive for the form section*/
-    .sub-header h1{
-        font-size: 24px;
-    }
-
-}
 
 
 
@@ -178,7 +117,7 @@ h1{
     font-weight: 600;
 }
 p{
-    color: rgb(5, 5, 5);
+    color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -191,11 +130,17 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #4ed32d;
+    background: black;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+.course-col h3{
+    color: white;
+}
+.course-col p{
+    color: white;
 }
 h3{
     text-align: center;
@@ -239,7 +184,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226,9,30,0.7);
+    background: rgb(13, 124, 228);
 }
 .layer h3{
     width: 100%;
@@ -274,7 +219,7 @@ h3{
 }
 .building-col img{
     width: 100%;
-    height: 100%; /*these stretch out the images to fill the area*/
+    height: 60%; /*these stretch out the images to fill the area*/
     border-radius: 10px;
 }
 .building-col p{
@@ -284,6 +229,7 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;   
+    color: black;
 }
 
 /* 5th section on the first page */
@@ -309,6 +255,7 @@ h3{
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 30px;
+
 }
 .reviews-col p{
     padding: 0;
@@ -324,7 +271,7 @@ h3{
 
 /*Call to action */
 
-.cta{
+.reachMe{
     margin: 100px auto;
     width: 80%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(28, 67, 224, 0.7)),url(images/gw.png);
@@ -334,7 +281,7 @@ h3{
     text-align: center;
     padding: 100px 0;
 }
-.cta h1{
+.reachMe h1{
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
@@ -367,7 +314,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/about.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/aboutBackground.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -388,9 +335,11 @@ h3{
 .about-col{
     flex-basis: 48%;
     padding: 30px 2px;
+   
 }
 .about-col img{
     width: 100%;
+    
 }
 .about-col h1{
     padding-top: 0;
@@ -430,14 +379,14 @@ h3{
 }
 .blog-left p{
     padding: 0;
-    color:aqua;
+    color:rgb(4, 4, 110);
 }
 .blog-right{
     flex-basis: 32%;
 }
 .blog-right h3{
-    background: orange;
-    color: red;
+    background: rgb(103, 2, 161);
+    color: rgb(48, 145, 85);
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
@@ -446,12 +395,12 @@ h3{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: greenyellow;
+    color: black;
     padding: 8px;
     box-sizing: border-box;
 }
 .comment-box{
-    border: 1px solid orange;
+    border: 1px solid rgb(155, 9, 240);
     margin: 50px 0;
     padding: 10px 20px;
 }
@@ -483,8 +432,8 @@ h3{
     padding: 80px 0;
 }
 .location h2{
-    background: orange;
-    color: red;
+    background: rgb(103, 2, 161);
+    color: rgb(48, 145, 85);
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
@@ -500,13 +449,14 @@ h3{
 .contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
+
 }
-.contact-co div{
+.contact-col div{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
-.contact-co div .fa{
+.contact-col div .fa{
     font-size: 28px;
     color: brown;
     margin: 10px;
@@ -518,7 +468,7 @@ h3{
 .contact-col div h5{
     font-size: 20px;
     margin-bottom: 5px;
-    color: green;
+    color: rgb(0, 9, 128);
     font-weight: 400;
 }
 
@@ -531,3 +481,70 @@ h3{
     box-sizing: border-box;
 }
 
+
+
+
+
+
+/*To hide the icons for the fulls screen*/
+nav .fa {
+    display: none;
+}
+
+/*Now this is to take care of the mobile device*/
+/*applicable to device with less than or equal to 700px*/
+@media(max-width: 1024px){
+    /*Fixing the size of the title*/
+    .text-box h1{
+        font-size: 40px;
+    }
+    /*this was the CSS created for the menu labels*/
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed; /* This fixes the scrollable on the mobile devices*/
+        background: #97b4fc;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -100%;/*To Hide the menu*/
+        text-align: left;
+        z-index: 2;
+        transform: 1s;
+    }
+    /*prettying up the x button the menu*/
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    /*Space around the menu links*/
+    .nav-links ul{
+        padding: 30px;
+    }
+
+
+    /*the second section */
+    .row{
+        flex-direction: column;
+    }
+
+    /*The 5th section*/
+    .reviews-col img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    /* reachMe section */
+    .reachMe h1{
+        font-size: 24px;
+    }
+
+    /*Adding the responsive for the form section*/
+    .sub-header h1{
+        font-size: 24px;
+    }
+
+}
