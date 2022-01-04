@@ -139,6 +139,9 @@ p{
 .course-col h3{
     color: white;
 }
+.course-col h5{
+    color: white;
+}
 .course-col p{
     color: white;
 }
@@ -345,6 +348,12 @@ h3{
     padding-top: 0;
 }
 .about-col p{
+    padding: 15px 0 25px;
+}
+.about-col h4{
+    padding: 15px 0 25px;
+}
+.about-col h5{
     padding: 15px 0 25px;
 }
 

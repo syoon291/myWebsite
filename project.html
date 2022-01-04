@@ -41,7 +41,7 @@
 							<li><a href="index.html">HOME</a></li>
 							<li><a href="about.html">ABOUT</a></li>
 							<li><a href="project.html">PROJECT</a></li>
-							<li><a href="course.html">COURSE</a></li>
+							<li><a href="extras.html">EXTRAS</a></li>
 							<li><a href="contact.html">CONTACT</a></li>
 							
 						</ul>
@@ -64,12 +64,54 @@
 			<div class="row">
 					<div class="course-col">
 						<h3>GW Slack GUI</h3>
-						<p>description here</p>
+						<p>The program is ran through the terminal. Emulating the actual chatting application, slack, the program was designed to showcase the messages being sent and members online from the server. The program utilized java features by creating a GUI which includes textfields, buttons, textareas, etc. In order to create a GUI that incorporated a server, a public server was used to test inputs and ouputs. In order to connect to the public server, the username, ip adress, and port number is required. By Pressing the button, the input is then checked and connects to the server by inputting those inputs. If the inputs are invalid, an additional window pops up notifiying the user. If the connection is sucessful, the button changes, members online are updated and the user is able to send messages to the server. 
+						</p>
+						<p>Some extra features I decided to implement to the GUI were the theme selector and the saving message feature.</p>
+							<p>
+							Implemented a button to save all the messages into a text file...
+							<br>
+							The user is prompted to input the file name into the textField, if they would like to save the file. 
+							Once inputting the name of the file, the user would then click the save button and all the of messages within the Messages textArea would then be saved into a separate text file of the chosen name the user inputted. 
+							Once the text file is created, a new window pops up notifiy the user. 
+							<br>
+						</p>
+						<p>
+							Color themes using a drop box...
+							<br>
+							Based on the selected choice from the dropBox, the color of the panels would change. 
+							<br>Options: Normal (Default), Hulk Theme, Shader Grey, Dark Mode, Halloween, Christmas
+						</p>	
+
+					
 					</div>
+
+
 					<div class="course-col">
 						<h3>Creature Chaser</h3>
-						<p>eiwtnoiwentwientwoeitnweitnweoitnwotw</p>
+						<p>Similar to an ecosystem of various preys and predators relation, the program simulates various creatures searching and chasing each other. 
+							As each dot represents a specific creature, there are certain color assignments to the creatures. </p>
+							
+						<p>The color code is as follows: Mice -> blue, Cat -> yellow (cyan when chasing), zombieCat -> red (black when chasing), Virus -> pink (green when chasing). </p>
+						<p>The hierachy of the creatures is as follows: Mice is the lowest, Cats eat Mice only, zombieCats eat Mice and Cats, Virus infects all creatures.</p>	
+
+						<h5>Simulation Feature</h5>
+						<p>Every 100 rounds, mice is spawned into random gridpoint. Every 25 rounds, cat is spawned. Every 5 rounds, virus is spawned.</p>
+
+						<h5>Mice</h5>
+						<p>Every 20 rounds -> each mice spawns a baby mice. Life Span of 30 rounds. Movement speed is 1 space at time.</p>
+						
+						<h5>Cat</h5>
+						<p>Life Span of 50 rounds (if the creature has not eaten). Movement speed is 2 space at time. Search/Chase in a 20 gridPoint area.</p>
+
+						<h5>ZombieCat</h5>
+						<p>Life Span of 100 rounds (if the creature has not eaten). Movement speed is 3 space at time. Search/Chase in a 40 gridPoint area.</p>
+
+						<h5>Virus</h5>
+						<p>Life Span of 15 rounds. Movement speed is 5 space at time. Search/Chase in a 10 gridPoint area (smaller area because of its intense speed).</p>
+						
 					</div>
+
+
 					<div class="course-col">
 						<h3>Search Engine W/HashMaps</h3>
 						<p>The program is ran through the terminal. Upon running the program, the program will prompt the user to enter the number of buckets for the hashmap. 

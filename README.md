@@ -88,3 +88,30 @@
 </html>
 
 ```
+
+
+#### to be edited on the page
+
+* GW Slack GUI
+    * Created a GUI by extending JFrame and utilizing texfields, buttons, and textArea to Connect/Disconnect from the the GW server. 
+    * Incorporated a Connect/Disconnect button which connects to the server through a opening/closing a socket.
+
+    * The program is ran through the terminal. Emulating the actual chatting application, slack, the program was designed to showcase the messages being sent and members online from the server. The program utilized java features by creating a GUI which includes textfields, buttons, textareas, etc. In order to create a GUI that incorporated a server, a public server was used to test inputs and ouputs. In order to connect to the public server, the username, ip adress, and port number is required. By Pressing the button, the input is then checked and connects to the server by inputting those inputs. If the inputs are invalid, an additional window pops up notifiying the user. If the connection is sucessful, the button changes, members online are updated and the user is able to send messages to the server. 
+
+        * Some extra features I decided to implement to the GUI were the theme selector and the saving message feature. 
+                *  Implemented a button to save all the messages into a text file 
+                The user is prompted to input the file name into the textField, if they would like to save the file. Once inputting the name of the file, the user would then click the save button and all the of messages within the Messages textArea would then be saved into a separate text file of the chosen name the user inputted. Once the text file is created, a new window pops up notifiy the user. 
+
+
+                * Color themes using a drop box
+                    * Based on the selected choice from the dropBox, the color of the panels would change. Options: Normal (Default), Hulk Theme, Shader Grey, Dark Mode, Halloween, Christmas
+
+* Creature Chaser
+    * Utilized Object Oriented Programming (OOP) to create a predator-prey simulation on a grid by using inheritance, encapsulation, data hiding, and polymorphism.
+    * Implemented a Hashmap of linked lists to represent the grid, which was updated each round through use of queues.
+
+* Similar to an ecosystem of various preys and predators relation, the program simulates various creatures searching and chasing each other. As each dot represents a specific creature, there are certain color assignments to the creatures. 
+    * The color code is as follows: Mice -> blue, Cat -> yellow (cyan when chasing), zombieCat -> red (black when chasing), Virus -> pink (green when chasing). 
+    * The hierachy of the creatures is as follows: Mice is the lowest, Cats eat Mice only, zombieCats eat Mice and Cats, Virus infects all creatures.
+
+* This project mainly focuses on object oriented programming!
