@@ -1,3 +1,6 @@
+# Reasource to the JEDI Committee
+* https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-jedi-committee
+* https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-resources
 # Notes and Comments While Testing
 * Link to my page: https://syoon291.github.io/myWebsite/
 
